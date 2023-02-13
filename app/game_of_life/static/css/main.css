@@ -1,0 +1,30 @@
+.mainBox {
+    #border: solid 3px #000000;
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    position: relative;
+    justify-content: center;
+}
+.cellBox {
+    display: block;
+    width: 8px;
+    height: 8px;
+    border: solid 1px #808080;
+    background-color: #ffffff;
+    position: absolut
+}
+.deathCell {
+    background-color: #ffffff;
+}
+
+.aliveCell {
+    background-color: #2c2c2c;
+}
+.buttonNext, .gameOver {
+    display: flex;
+    margin: 1em;
+    justify-content: center;
+}
